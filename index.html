@@ -1,17 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StayGreen</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/Logo_StayGreen_sem_fundo.svg"
+      type="image/x-icon"
+    />
     <script src="js/scripts.js" defer></script>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="nav-title"></div>
-      <div class="nav-items"></div>
-      <div class="loggin-btn"></div>
-    </nav>
+    <div class="container">
+      <nav class="navbar">
+        <div class="nav-title" id="navToggle">
+          <img
+            src="assets/img/Logo_StayGreen_sem_fundo.svg"
+            alt="StayGreen Logo"
+          />
+          <h2>StayGreen</h2>
+        </div>
+        <div class="nav-items" id="navItems">
+          <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">Sobre</a></li>
+            <li><a href="#contact" class="nav-link">Contato</a></li>
+          </ul>
+          <div class="loggin-btn">
+            <a href="#" class="nav-link login">Login</a>
+          </div>
+        </div>
+      </nav>
+      <section class="hero-section section"></section>
+      <section class="about-section section"></section>
+    </div>
   </body>
 </html>
